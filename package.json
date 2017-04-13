@@ -1,0 +1,18 @@
+{
+  "name": "news-polyfill",
+  "version": "0.0.1",
+  "description": "Crawler for Taiwan News",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^1.1.3",
+    "cheerio": "^0.22.0",
+    "lodash": "^4.17.4",
+    "opn": "^4.0.2",
+    "request-promise": "^4.2.0"
+  }
+}
