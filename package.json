@@ -1,8 +1,8 @@
 {
-  "name": "news-polyfill",
-  "version": "0.1.0",
+  "name": "news-fetch",
+  "version": "0.2.0",
   "description": "Crawler for Taiwan News",
-  "main": "index.js",
+  "main": "lib/index.js",
   "scripts": {
     "test": "node test.js"
   },
@@ -13,6 +13,7 @@
     "cheerio": "^0.22.0",
     "lodash": "^4.17.4",
     "moment": "^2.18.1",
+    "request": "^2.81.0",
     "request-promise": "^4.2.0"
   }
 }
