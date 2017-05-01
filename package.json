@@ -1,13 +1,21 @@
 {
   "name": "news-fetch",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Crawler for Taiwan News",
   "main": "lib/index.js",
-  "scripts": {
-    "test": "node test.js"
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/m80126colin/news-fetch.git"
   },
+  "keywords": [
+    "news"
+  ],
   "author": "Hsu Karinsu",
   "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/m80126colin/news-fetch/issues"
+  },
+  "homepage": "https://github.com/m80126colin/news-fetch#readme",
   "dependencies": {
     "chalk": "^1.1.3",
     "cheerio": "^0.22.0",
